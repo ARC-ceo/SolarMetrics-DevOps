@@ -86,7 +86,7 @@ cd SolarMetrics-DevOps
 docker compose up -d
 ```
 
-- Sobe os serviços definidos no `docker-compose.yml` em modo destacado (`-d`).
+- Sobe os serviços definidos no `docker-compose.yml` em modo backgroud (`-d`).
 
 ---
 

@@ -1,7 +1,7 @@
 ![Logo](banner.jpg)
-# SolarMetrics - API em Spring Boot
+# SolarMetrics - API em Spring Boot & WebSite em REACT + Typescript
 
-**SolarMetrics** é uma API desenvolvida para monitoramento e análise de energia solar, fornecendo dados em tempo real sobre sensores, usuários e ocupação de sistemas. A aplicação permite integrar sensores IoT, gerar relatórios e fornecer dados para aplicativos móveis ou dashboards web.
+**SolarMetrics** é um projeto desenvolvido para monitoramento e análise de energia solar, fornecendo dados em tempo real sobre sensores, usuários e ocupação de sistemas. A aplicação permite integrar sensores IoT, gerar relatórios e fornecer dados para aplicativos móveis ou dashboards web.
 
 ## Funcionalidades
 
@@ -58,7 +58,7 @@ newgrp docker
 ```
 
 - `usermod -aG docker $USER` adiciona o usuário atual ao grupo `docker`.
-- `newgrp docker` aplica a alteração sem precisar fazer logout/login. Caso prefira, faça logout e login novamente.
+- `newgrp docker` aplica a alteração sem precisar fazer logout/login.
 
 ### 4) Instalar o Git
 
@@ -77,7 +77,7 @@ git clone https://github.com/ARC-ceo/SolarMetrics-DevOps.git
 cd SolarMetrics-DevOps
 ```
 
-- Cria a pasta `opt`, ajusta permissões (você pode optar por permissões mais restritas em produção) e clona o repositório do projeto.
+- Cria a pasta `opt`, ajusta permissões para permitir o acesso e clona o repositório do projeto.
 
 ### 6) Executar os containers
 
@@ -90,3 +90,4 @@ docker compose up -d
 
 ---
 
+**SolarMetrics** — Sua energia. Seu controle  ☀️
